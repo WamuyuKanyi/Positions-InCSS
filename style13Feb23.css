@@ -1,0 +1,25 @@
+/* POSITIONS-The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky). */
+/* HTML elements are positioned static by default.
+
+Static positioned elements are not affected by the top, bottom, left, and right properties.
+
+An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page: */
+div{
+ border: 3px solid red;
+ background: yellow;
+ margin-top: 40px;
+ position: static;
+}
+
+.one{
+ background: blue;
+}
+
+.two{
+ background: green;
+}
+
+.special{
+ background: orange;
+ font-size: 20px;
+}
